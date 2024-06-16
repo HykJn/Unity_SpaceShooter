@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7940843371770726869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7940843371770726871}
+  - component: {fileID: 7940843371770726870}
+  m_Layer: 0
+  m_Name: ObjectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7940843371770726871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7940843371770726869}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7940843371770726870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7940843371770726869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44f29cbc142fcf4d86cc2fca2407d1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemySPrefab: {fileID: 8466576990769294788, guid: 3fc8d7e93c578fa45817a833adeddd4a, type: 3}
+  EnemyMPrefab: {fileID: 7440033283489144400, guid: c7b0ee2f887e8864580b431b49156d25, type: 3}
+  EnemyLPrefab: {fileID: 8986752223676992740, guid: b9bf649b59399bb43927f21b1d6cc3d9, type: 3}
+  PlayerBulletSPrefab: {fileID: 7215852683665872043, guid: 58a173503a5c88c4d9b8cb63e10d7533, type: 3}
+  PlayerBulletLPrefab: {fileID: 4512996157878987574, guid: 78209953f40dd81428703136a84e024e, type: 3}
+  BossPrefab: {fileID: 4764306825608642550, guid: 8d8a7a473269928449b96185182a5d6b, type: 3}
+  EnemyBulletSPrefab: {fileID: 3806670624459984166, guid: 77d6a6a3c7f798146bd39a214b780678, type: 3}
+  EnemyBulletMPrefab: {fileID: 7599283160605238653, guid: 179821a8fd42a4e4e8a9dcb002a9d230, type: 3}
+  EnemyBulletLPrefab: {fileID: 4299006386449798324, guid: 45f5f29a30bb2704c9a183c3c29d3d5b, type: 3}
+  BossBulletPrefab: {fileID: 2442132482187923149, guid: fb505cc016aa51e43aee3fe2b35e1dfe, type: 3}
+  PowerItemPrefab: {fileID: 6143028366423126879, guid: de64ac6fd4cc3e54281217291168cd82, type: 3}
+  BombItemPrefab: {fileID: 3259134821854351209, guid: 8d4901b1d7dc0ce44a542d26de451a25, type: 3}
+  BombEffectPrefab: {fileID: 5022443069104985999, guid: 42a6748dbbce10a4a95cf3e2ab6c296d, type: 3}
+  ExplosionEffectPrefab: {fileID: 5993363256937469670, guid: bd6bd3adce70efe4aa2e7aafe96823bc, type: 3}
